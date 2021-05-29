@@ -6,8 +6,8 @@ public class LaserProjectile : MonoBehaviour
 {
 
     public float speed = 10;
-    private float maxBound = 10;
-    private float minBound = -10;
+    private float maxBound = 20;
+    private float minBound = -20;
 
     // Start is called before the first frame update
     void Start()
