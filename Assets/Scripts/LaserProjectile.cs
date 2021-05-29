@@ -32,7 +32,7 @@ public class LaserProjectile : MonoBehaviour
         if (other.collider.CompareTag("Enemy"))
         {
             Destroy(other.gameObject);
-            Destroy(gameObject);
         }
+        Destroy(gameObject);
     }
 }

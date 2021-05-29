@@ -6,14 +6,13 @@ public class BackgroundController : MonoBehaviour
 {
     //variables
 
-    public Vector3 startPos;
-    public float widthRepeat;
-    private float speed = 5;
+    public float speed = 5;
+    public float EndPosition;
+    public float ResetPosition;
+
     // Start is called before the first frame update
     void Start()
     {
-        startPos = transform.position;
-        widthRepeat = GetComponent<BoxCollider>().bounds.size.x;
     }
 
     // Update is called once per frame
@@ -21,9 +20,10 @@ public class BackgroundController : MonoBehaviour
     {
         transform.Translate(Vector3.left * Time.deltaTime * speed);
 
-        if (transform.position.x < startPos.x - widthRepeat)
+        if (transform.localPosition.x < EndPosition)
         {
-            transform.position = startPos;
+            transform.localPosition = new Vector3(ResetPosition, transform.localPosition.y, transform.localPosition.z);
+            //transform.position = startPos;
         }
     }
 }
