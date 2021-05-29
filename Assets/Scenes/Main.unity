@@ -140,18 +140,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1176650751151805817, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1176650751151805817, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1176650751151805817, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1176650751151805817, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.53
       objectReference: {fileID: 0}
@@ -195,25 +183,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 7117371821710917929, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8236752933229607246, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
-      propertyPath: jumpMultiplier
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8236752933229607246, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
-      propertyPath: jumpCurve.m_Curve.Array.data[1].time
-      value: 0.6203187
-      objectReference: {fileID: 0}
-    - target: {fileID: 8236752933229607246, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
-      propertyPath: jumpCurve.m_Curve.Array.data[1].value
-      value: 1.5560638
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1594696588, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
-    - {fileID: 4450741281484037377, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
 --- !u!1 &639195349
 GameObject:
@@ -475,11 +445,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e07d4a4adf5a5d4f8cd16e1970efd1f, type: 3}
---- !u!4 &1629107762 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1176650751151805817, guid: 70c53c2ace870c541904bd8f58502649, type: 3}
-  m_PrefabInstance: {fileID: 226416360}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1816120459
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,50 +624,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1879770552
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1879770553}
-  - component: {fileID: 1879770554}
-  m_Layer: 0
-  m_Name: LaserSpawnPosition
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1879770553
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1879770552}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0.68, z: -3.95}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_Children: []
-  m_Father: {fileID: 1629107762}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1879770554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1879770552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 316a4eca5b4b02f42a1a3214f6c535a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  laserPrefab: {fileID: 6201147115502051715, guid: 2c002c47c90cd894ab0b7d38a9b3ffbc, type: 3}
 --- !u!1001 &1975245963
 PrefabInstance:
   m_ObjectHideFlags: 0
