@@ -6,7 +6,7 @@ public class backgroundController2 : MonoBehaviour
 {
     public Vector3 startPos;
     public float widthRepeat;
-    private float speed = 2;
+    private float speed = 10;
     // Start is called before the first frame update
     void Start()
     {
