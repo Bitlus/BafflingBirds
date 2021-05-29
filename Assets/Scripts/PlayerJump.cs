@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
+    public float jumpMultiplier = 1.0f;
     public AnimationCurve jumpCurve;
 
     private bool _isJumping;
@@ -26,7 +27,7 @@ public class PlayerJump : MonoBehaviour
             }
             else
             {
-                position.y = _startingJumpHeight + jumpCurve.Evaluate(_jumpTime);
+                position.y = (_startingJumpHeight + jumpCurve.Evaluate(_jumpTime)) * jumpMultiplier;
                 transform.position = position;
             }
         }
