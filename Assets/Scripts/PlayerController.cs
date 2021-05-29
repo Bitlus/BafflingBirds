@@ -5,7 +5,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    public int Score = 0;
+    public Score score;
+
+    void Start()
+    {
+        score = GetComponent<Score>();
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -13,7 +18,7 @@ public class PlayerController : MonoBehaviour
         KiwifruitCollectible collectable = collision.collider.GetComponent<KiwifruitCollectible>();
         if (collectable != null)
         {
-            Score++;
+            score.score++;
             // Add Points
             GameObject.Destroy(collectable.gameObject);
         }

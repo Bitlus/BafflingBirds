@@ -10,10 +10,12 @@ public class LaserProjectile : MonoBehaviour
     private float maxBound = 20;
     private float minBound = -20;
 
+    private GameObject player = null;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
@@ -32,6 +34,7 @@ public class LaserProjectile : MonoBehaviour
         if (other.collider.CompareTag("Enemy"))
         {
             Destroy(other.gameObject);
+            if (player != null) player.GetComponent<Score>().score++;
         }
         Destroy(gameObject);
     }
