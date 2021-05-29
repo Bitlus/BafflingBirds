@@ -27,7 +27,7 @@ public class PlayerJump : MonoBehaviour
             }
             else
             {
-                position.y = (_startingJumpHeight + jumpCurve.Evaluate(_jumpTime)) * jumpMultiplier;
+                position.y = _startingJumpHeight + (jumpCurve.Evaluate(_jumpTime) * jumpMultiplier);
                 transform.position = position;
             }
         }
