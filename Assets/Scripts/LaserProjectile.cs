@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,6 +23,15 @@ public class LaserProjectile : MonoBehaviour
 
         if (transform.position.x > maxBound || transform.position.x < minBound)
         {
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.collider.CompareTag("Enemy"))
+        {
+            Destroy(other.gameObject);
             Destroy(gameObject);
         }
     }

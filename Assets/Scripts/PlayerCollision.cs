@@ -1,20 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class PlayerCollision : MonoBehaviour
 {
-    private Collider c;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        c = GetComponent<Collider>();
-    }
-
     private void OnCollisionEnter(Collision other)
     {
-        Debug.Log("Collided!!!!");
+        if (other.collider.CompareTag("Enemy") || other.collider.CompareTag("Obstacle"))
+        {
+        }
     }
 }
