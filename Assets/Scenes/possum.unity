@@ -216,11 +216,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!4 &1419308057 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
-  m_PrefabInstance: {fileID: 1859779491}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1483401198
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,123 +329,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1859779491
+--- !u!1001 &83571943529330832
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2043888693}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
+    - target: {fileID: 83571942309919907, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
+      propertyPath: m_Name
+      value: EnemyPossum
+      objectReference: {fileID: 0}
+    - target: {fileID: 83571942309919909, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
+    - target: {fileID: 83571942309919909, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.91
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
+    - target: {fileID: 83571942309919909, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
+    - target: {fileID: 83571942309919909, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
+    - target: {fileID: 83571942309919909, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
+    - target: {fileID: 83571942309919909, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
+    - target: {fileID: 83571942309919909, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
+    - target: {fileID: 83571942309919909, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
+    - target: {fileID: 83571942309919909, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
+    - target: {fileID: 83571942309919909, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
+    - target: {fileID: 83571942309919909, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 2905b42724eb8a04fb1c4676e5a8139f, type: 2}
-    - target: {fileID: 919132149155446097, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
-      propertyPath: m_Name
-      value: possum
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 40714ddd6e36e474d8c6b65c0a906e63, type: 3}
---- !u!1 &2043888691
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2043888693}
-  - component: {fileID: 2043888692}
-  - component: {fileID: 2043888694}
-  m_Layer: 0
-  m_Name: EnemyPossum
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2043888692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2043888691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9bf3db8fa54982489fd68371048db72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
---- !u!4 &2043888693
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2043888691}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.91, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1419308057}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2043888694
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2043888691}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.87, y: 1, z: 1}
-  m_Center: {x: 0.46, y: 0, z: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: ca58d19850d41594fad9746379c7be5a, type: 3}
