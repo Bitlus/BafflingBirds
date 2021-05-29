@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
-    public float jumpForce = 10.0f;
     public AnimationCurve jumpCurve;
 
-    public bool _isJumping;
-    public float _startingJumpHeight;
-    public float _jumpTime = 0.0f;
+    private bool _isJumping;
+    private float _startingJumpHeight;
+    private float _jumpTime = 0.0f;
 
     void Update()
     {
