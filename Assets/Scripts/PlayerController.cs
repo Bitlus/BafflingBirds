@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour
         if (collectable != null)
         {
             score.score++;
-            // Add Points
             GameObject.Destroy(collectable.gameObject);
         }
     }
