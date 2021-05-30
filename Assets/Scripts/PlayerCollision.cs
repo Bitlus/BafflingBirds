@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Debug = UnityEngine.Debug;
 
 public class PlayerCollision : MonoBehaviour
@@ -11,6 +12,7 @@ public class PlayerCollision : MonoBehaviour
     {
         if (other.collider.CompareTag("Enemy") || other.collider.CompareTag("Obstacle"))
         {
+            SceneManager.LoadScene("Scenes/GameOver");
         }
     }
 }
