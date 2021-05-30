@@ -7,11 +7,14 @@ public class PlayerLaser : MonoBehaviour
     public GameObject laserPrefab;
     public float cooldown = 0.5f;
     public float _timeSinceLastShot;
+    public AudioSource pewPew;
 
     // Start is called before the first frame update
     void Start()
     {
+ 
         _timeSinceLastShot = cooldown;
+        //AudioSource 
     }
     
     // Update is called once per frame
@@ -23,6 +26,8 @@ public class PlayerLaser : MonoBehaviour
         {
             Instantiate(laserPrefab, transform.position, laserPrefab.transform.rotation);
             _timeSinceLastShot = 0.0f;
+            pewPew.Play();
+
         }
     }
 }
