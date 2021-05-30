@@ -5,10 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class LoadMainScene : MonoBehaviour
 {
-    // Update is called once per frame
+    public float delay = 1.0f;
+    private float _timeElapsed;
+
+    void Start()
+    {
+        _timeElapsed = 0.0f;
+    }
+    
     void Update()
     {
-        if (Input.anyKey)
+        _timeElapsed += Time.deltaTime;
+        if (Input.anyKey && _timeElapsed > delay)
         {
             SceneManager.LoadScene("Scenes/Main");
         }

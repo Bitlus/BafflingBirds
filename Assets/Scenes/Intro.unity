@@ -166,6 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 005fb8898c9d4ef4184b90b70ae70596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 1
 --- !u!1 &444890646
 GameObject:
   m_ObjectHideFlags: 0
